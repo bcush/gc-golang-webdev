@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>test</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+{{.Fall.Term}}<br>
+{{range .Fall.Courses}}
+{{.Number}} - {{.Name}} - {{.Units}}<br>
+{{end}}
+
+{{.Spring.Term}}<br>
+{{range .Spring.Courses}}
+{{.Number}} - {{.Name}} - {{.Units}}<br>
+{{end}}
+
+</body>
+</html>
